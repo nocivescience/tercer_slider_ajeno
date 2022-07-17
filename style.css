@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.screen{
+    width: 200px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 2px solid #000;
+    display: flex;
+}
+.card{
+    width: 100px;
+    height: 100px;
+    background-color: #00c2c9;
+    border: 2px solid #000;
+    transform: translateX(100px);
+}
+button{
+    margin-bottom: 60px;
+}
